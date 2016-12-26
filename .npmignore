@@ -1,3 +1,7 @@
+############################
+# From .gitignore
+############################
+
 # Logs
 logs
 *.log
@@ -14,9 +18,6 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
-# nyc test coverage
-.nyc_output
-
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -26,9 +27,8 @@ coverage
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directories
+# Dependency directory
 node_modules
-jspm_packages
 
 # Optional npm cache directory
 .npm
@@ -36,6 +36,23 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-# Sublime Text project files
-*.sublime-project
+# Sublime Text workspace project and cache files
 *.sublime-workspace
+*.sublime-project
+
+#Coverage Information
+coverage
+
+
+############################
+# NPM-specific files
+############################
+
+# Linter files
+.eslintrc
+.jshintrc
+
+# Test-related files
+.travis.yml
+test
+benchmark

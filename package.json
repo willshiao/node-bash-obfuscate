@@ -1,0 +1,24 @@
+{
+  "name": "node-bash-obfuscate",
+  "version": "1.0.0",
+  "description": "A Node.js CLI tool and library to heavily obfuscate bash scripts.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willshiao/node-bash-obfuscate.git"
+  },
+  "keywords": [
+    "obfuscate",
+    "bash",
+    "cli"
+  ],
+  "author": "William Shiao <willshiao@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willshiao/node-bash-obfuscate/issues"
+  },
+  "homepage": "https://github.com/willshiao/node-bash-obfuscate#readme"
+}
