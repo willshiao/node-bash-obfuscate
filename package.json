@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/willshiao/node-bash-obfuscate/issues"
   },
-  "homepage": "https://github.com/willshiao/node-bash-obfuscate#readme"
+  "homepage": "https://github.com/willshiao/node-bash-obfuscate#readme",
+  "dependencies": {
+    "lodash": "^4.17.3"
+  }
 }
