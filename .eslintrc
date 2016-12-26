@@ -23,17 +23,14 @@ rules:
   no-irregular-whitespace: 2
   no-obj-calls: 2
   no-proto: 2
-  no-template-curly-in-string: 2
   no-unexpected-multiline: 2
   no-unreachable: 2
-  no-unsafe-negation: 2
   use-isnan: 2
   valid-typeof: 2
 
   # Best Practices
   # http://eslint.org/docs/rules/#best-practices
   no-fallthrough: 2
-  no-global-assign: 2
   no-multi-spaces: 2
   no-octal: 2
   no-redeclare: 2
@@ -62,8 +59,6 @@ rules:
   brace-style: [2, 1tbs, {allowSingleLine: true}]
   comma-spacing: 2
   eol-last: 2
-  func-call-spacing: 2
-  indent: [2, 2, {SwitchCase: 1, MemberExpression: 1}]
   key-spacing: [2, {mode: minimum}]
   linebreak-style: [2, unix]
   new-parens: 2
