@@ -1,5 +1,5 @@
 {
-  "name": "node-bash-obfuscate",
+  "name": "bash-obfuscate",
   "version": "1.0.0",
   "description": "A Node.js CLI tool and library to heavily obfuscate bash scripts.",
   "main": "main.js",
