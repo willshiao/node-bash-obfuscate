@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "bash-obfuscate": "bin/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/willshiao/node-bash-obfuscate.git"
@@ -22,6 +25,7 @@
   },
   "homepage": "https://github.com/willshiao/node-bash-obfuscate#readme",
   "dependencies": {
-    "lodash": "^4.17.3"
+    "lodash": "^4.17.3",
+    "yargs": "^6.5.0"
   }
 }
