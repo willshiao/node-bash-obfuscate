@@ -8,15 +8,20 @@ const argv = require('yargs')
   .alias('o', 'out')
   .describe('o', 'Output file')
   .alias('c', 'chunk-size')
+  .alias('c', 'chunk-size')
   .describe('c', 'Chunk size (for variables in obfuscated code)')
   .default('c', 4)
+  .boolean('r')
+  .alias('r', 'randomize')
+  .default('r', true)
+  .describe('r', 'Randomize variable order')
   .demand(1)
   .argv;
 
 
 try {
   const script = fs.readFileSync(argv._[0], 'utf8');
-  const output = obfuscate(script, argv.c);
+  const output = obfuscate(script, argv.c, true);
   if(!argv.o) {
     console.log(output);
   } else {

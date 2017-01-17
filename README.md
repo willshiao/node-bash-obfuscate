@@ -16,8 +16,11 @@ $ bash-obfuscate script.sh -o output.sh
 Usage: bash-obfuscate <inputFilename> [options]
 
 Options:
-  -o, --out         Output file
-  -c, --chunk-size  Chunk size (for variables in obfuscated code)   [default: 4]
+  -o, --out                       Output file
+  -c, --chunk-size, --chunk-size  Chunk size (for variables in obfuscated code)
+                                                                    [default: 4]
+  -r, --randomize                 Randomize variable order
+                                                       [boolean] [default: true]
 ```
 
 
@@ -39,7 +42,7 @@ echo "It works!"
 ### Output
 ```bash
 z="
-";Az='USR_';Bz='VAR=';Cz=''\''I l';Dz='ike ';Ez='Node';Fz='.js!';Gz=''\''';Hz='echo';Iz=' $US';Jz='R_VA';Kz='R';Lz='for ';Mz='(( i';Nz=' = 0';Oz='; i ';Pz='< 10';Qz='; i+';Rz='+ ))';Sz='; do';Tz=' $i';Uz='done';Vz=' "It';Wz=' wor';Xz='ks!"';
+";Hz='echo';Gz=''\''';Lz='for ';Qz='; i+';Ez='Node';Cz=''\''I l';Uz='done';Jz='R_VA';Az='USR_';Fz='.js!';Nz=' = 0';Bz='VAR=';Kz='R';Rz='+ ))';Wz=' wor';Iz=' $US';Vz=' "It';Oz='; i ';Sz='; do';Mz='(( i';Tz=' $i';Xz='ks!"';Pz='< 10';Dz='ike ';
 eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$z$Hz$Iz$Jz$Kz$z$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$z$Hz$Tz$z$Uz$z$Hz$Vz$Wz$Xz"
 ```
 
