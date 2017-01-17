@@ -9,6 +9,7 @@ const argv = require('yargs')
   .describe('o', 'Output file')
   .alias('c', 'chunk-size')
   .describe('c', 'Chunk size (for variables in obfuscated code)')
+  .default('c', 4)
   .demand(1)
   .argv;
 
