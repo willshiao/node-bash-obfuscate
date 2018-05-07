@@ -19,7 +19,7 @@ const scriptFiles = fs.readdirSync(SCRIPT_DIR);
 describe('obfuscate', function() {
   scriptFiles.forEach((scriptFile) => {
     it(`runs ${scriptFile} correctly`, function() {
-      const args = ''
+      const args = ' tree dog "third arg"'
       const fullPath = path.join(SCRIPT_DIR, scriptFile);
       const expected = shell.exec(fullPath + args, { silent: true }).stdout;
       const fileContents = fs.readFileSync(fullPath, 'utf-8');
