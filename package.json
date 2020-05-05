@@ -4,7 +4,9 @@
   "description": "A Node.js CLI tool and library to heavily obfuscate bash scripts.",
   "main": "main.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "bin": {
     "bash-obfuscate": "bin/cli.js"
@@ -26,11 +28,13 @@
   "homepage": "https://github.com/willshiao/node-bash-obfuscate#readme",
   "dependencies": {
     "lodash": "^4.17.3",
-    "yargs": "^6.5.0"
+    "yargs": "^6.5.0",
+    "snyk": "^1.319.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.1.1",
     "shelljs": "^0.8.1"
-  }
+  },
+  "snyk": true
 }
