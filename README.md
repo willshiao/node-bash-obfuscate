@@ -45,8 +45,8 @@ echo "It works!"
 ### Output
 ```bash
 z="
-";Hz='echo';Gz=''\''';Lz='for ';Qz='; i+';Ez='Node';Cz=''\''I l';Uz='done';Jz='R_VA';Az='USR_';Fz='.js!';Nz=' = 0';Bz='VAR=';Kz='R';Rz='+ ))';Wz=' wor';Iz=' $US';Vz=' "It';Oz='; i ';Sz='; do';Mz='(( i';Tz=' $i';Xz='ks!"';Pz='< 10';Dz='ike ';
-eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$z$Hz$Iz$Jz$Kz$z$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$z$Hz$Tz$z$Uz$z$Hz$Vz$Wz$Xz"
+";TP=' $i';G=''\''';H2QjY='echo';V=' "It';S6iH='; do';C5fo=''\''I l';A9Iq='USR_';E='Node';WtLbp=' wor';K='R';NOW=' = 0';Pyc='< 10';MuZQ='(( i';X='ks!"';U='done';Dj='ike ';F='.js!';I=' $US';JkC='R_VA';B='VAR=';R9bd='+ ))';LN='for ';O0x87='; i ';QUcxk='; i+';
+eval "$A9Iq$B$C5fo$Dj$E$F$G$z$H2QjY$I$JkC$K$z$LN$MuZQ$NOW$O0x87$Pyc$QUcxk$R9bd$S6iH$z$H2QjY$TP$z$U$z$H2QjY$V$WtLbp$X"
 ```
 
 
